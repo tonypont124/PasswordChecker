@@ -1,7 +1,7 @@
-Password Checker
+Password Checker:
     A simple web application that allows users to input a password and check its strength based on various criteria. The app provides real-time feedback and suggestions for improving password security.
 
-Features
+Features:
     Checks password strength based on:
         Minimum length of 8 characters
         At least one uppercase letter
@@ -11,12 +11,12 @@ Features
         Real-time feedback with visual indicators
         Suggestions for improving weak passwords
 
-Usage
+Usage:
     Enter a password in the input field.
     The app will evaluate the password and display its strength.
     Suggestions will appear if the password does not meet the strength criteria.
 
-Technologies Used
+Technologies Used:
     HTML
     CSS
     JavaScript
