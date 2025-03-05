@@ -37,7 +37,7 @@ function evaluatePassword() {
   const hasSpecial = /[^A-Za-z0-9]/.test(password);
   
   // Update requirement checks
-  lengthCheck.textContent = hasLength ? '✔' : '❌';
+  lengthCheck.textContent = hasLength ? '✅' : '❌';
   uppercaseCheck.textContent = hasUppercase ? '✅' : '❌';
   lowercaseCheck.textContent = hasLowercase ? '✅' : '❌';
   numberCheck.textContent = hasNumber ? '✅' : '❌';
